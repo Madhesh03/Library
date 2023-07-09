@@ -1,0 +1,109 @@
+body{
+    font-family:'Norse-Bold';
+   background-color: black;
+   src: url(/home/maddy/Downloads/Norse-Bold.otf);
+}
+form{
+    visibility: hidden;
+    
+}
+#addabook{
+   margin-left: 820px;
+   font-size: 15px;
+   width:150px;
+   color: antiquewhite;
+    background-color: black;
+}
+
+
+#bookread{
+    display:none;
+}
+h1{
+    color:grey;
+    font-size: 55px;
+    margin-left: 695px;
+}
+
+#bookunread{
+    display:none;
+}
+.form{
+    justify-content: space-between;
+    height: 320px;
+    width: 400px;
+    flex-direction: column;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-left : 690px;
+    background-color:black;
+    border-radius: 15px;
+    margin-top: 10px;
+  
+   
+}
+#submit{
+    margin-left: 139px;
+    width: 60px;
+}
+input{
+    border-radius: 5px;
+    border: 2px solid black;
+}
+label{
+    margin:10px;
+    margin-left: 0px;
+}
+#title{
+    height: 30px;
+    width:200px;
+    margin: 20px;
+    margin-left: 38px;
+}
+
+#author{
+    height: 30px;
+    width:200px;
+    width:200px;
+    margin: 20px;
+   
+   
+
+}
+#pages{
+    height: 30px;
+    width:200px;
+    width:200px;
+    margin: 20px;
+    margin-left: 29px;
+}
+
+#read{
+    height:11px;
+    width:13px;
+    margin-top:20px;
+    margin-bottom:20px;
+
+}
+
+th,td{
+height: 50px;
+width: 300px;
+text-align: center;
+}
+.table{
+   margin-left: 100px;
+   margin-top: 80px;
+   margin-right: 100px;
+   padding-left: 50px;
+   border: 5px solid black ;
+   border-radius: 10px;
+}
+tr{
+    background-color:darkgray;
+}
+
+input:hover {
+    border: 2px solid grey;
+    }
